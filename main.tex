@@ -1,0 +1,38 @@
+\newcommand{\papersubmittedby}{Mr. Firstname Lastname}
+\newcommand{\papersubmittedto}{Prof. Firstname Lastname}
+\newcommand{\paperheader}{SUBJ5042 - Example Subject Name}
+\newcommand{\papertitle}{Example Paper Name}
+\newcommand{\paperuniversity}{Example University}
+
+\documentclass[11pt, oneside]{report}
+\usepackage{config/style}
+
+\begin{document}
+
+	\include{titlepage}
+
+	\thispagestyle{empty}
+	\pagenumbering{gobble}
+
+	\tableofcontents
+
+	\clearpage
+
+	\pagenumbering{arabic}
+
+	\include{chapters/example_text}
+	\include{chapters/example_math}
+	\include{chapters/example_code}
+	\include{chapters/example_citation}
+        
+	\pagestyle{empty}
+	\pagenumbering{roman}
+	\setcounter{page}{1}
+	
+	\phantomsection 
+	\addcontentsline{toc}{chapter}{Bibliography} 
+	\bibliography{references}
+
+	\include{appendices}
+
+\end{document}
