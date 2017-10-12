@@ -1,19 +1,18 @@
-\newcommand{\papersubmittedby}{Mr. Firstname Lastname}
-\newcommand{\papersubmittedto}{Prof. Firstname Lastname}
-\newcommand{\paperheader}{SUBJ5042 - Example Subject Name}
-\newcommand{\papertitle}{Example Paper Name}
-\newcommand{\paperuniversity}{Example University}
-
 \documentclass[11pt, oneside]{report}
+
+\include{config/globals}
 \usepackage{config/style}
 
 \begin{document}
 
 	\include{titlepage}
-
+	
+	\clearpage
+	
 	\thispagestyle{empty}
 	\pagenumbering{gobble}
-	
+
+	\include{copyright}
 	\include{abstract}
 
 	\tableofcontents
