@@ -19,20 +19,6 @@ Preview the compiled PDF.
 
 ## The Document Structure
 
-* appendices/
-    * **example_image1.tex**
-    * **example_image2.tex**
-    * **[another appendix].tex**
-* assets/
-    * **image1.jpg**<h1 align="center">LaTeX Boilerplate</h1>
-<p align="center">A simple boilerplate containing all kinds of examples</p>
-
-## Compile
-
-`$ make pdf`
-
-## Structure
-
 * appendices/ *(add all your appendices here)*
     * **example_image1.tex**
     * **example_image2.tex**
