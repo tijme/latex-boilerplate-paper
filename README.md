@@ -37,19 +37,3 @@
 * **copyright.tex** *(the copyright page)*
 * **abstract.tex** *(the abstract page)*
 * **references.bib** *(the references library)*
-    * **image2.jpg**
-    * **[another asset].tex**
-* chapters/
-    * **example_text.tex**
-    * **example_math.tex**
-    * **example_code.tex**
-    * **example_citation.tex**
-    * **[another chapter].tex**
-* config/
-    * **globals.tex**
-    * **style.sty**
-* **main.tex**
-* **titlepage.tex**
-* **copyright.tex**
-* **abstract.tex**
-* **references.bib**
