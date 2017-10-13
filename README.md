@@ -22,7 +22,7 @@
 * assets/ *(add all your assets here)*
     * **image1.jpg**
     * **image2.jpg**
-    * ***[another asset]*.tex**
+    * ***[another asset]*.png**
 * chapters/ *(add all your chapters here)*
     * **example_text.tex**
     * **example_math.tex**
