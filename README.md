@@ -1,6 +1,73 @@
 <h1 align="center">LaTeX Boilerplate</h1>
+<p align="center">A simple LaTeX boilerplate for academic homework</p>
+
+## Preview
+
+Preview the compiled PDF.
+
+[image here]
+
+## Make Commands
+
+**Compile to PDF**
+
+`$ make pdf`
+
+**Clean temporary files**
+
+`$ make clean`
+
+## The Document Structure
+
+* appendices/
+    * **example_image1.tex**
+    * **example_image2.tex**
+    * **[another appendix].tex**
+* assets/
+    * **image1.jpg**<h1 align="center">LaTeX Boilerplate</h1>
 <p align="center">A simple boilerplate containing all kinds of examples</p>
 
 ## Compile
 
 `$ make pdf`
+
+## Structure
+
+* appendices/ *(add all your appendices here)*
+    * **example_image1.tex**
+    * **example_image2.tex**
+    * ***[another appendix]*.tex**
+* assets/ *(add all your assets here)*
+    * **image1.jpg**
+    * **image2.jpg**
+    * ***[another asset]*.tex**
+* chapters/ *(add all your chapters here)*
+    * **example_text.tex**
+    * **example_math.tex**
+    * **example_code.tex**
+    * **example_citation.tex**
+    * ***[another chapter]*.tex**
+* config/
+    * **globals.tex** *(variables/settings)*
+    * **style.sty** *(the document style/design)*
+* **main.tex** *(the root .tex file)*
+* **titlepage.tex** *(the cover page)*
+* **copyright.tex** *(the copyright page)*
+* **abstract.tex** *(the abstract page)*
+* **references.bib** *(the references library)*
+    * **image2.jpg**
+    * **[another asset].tex**
+* chapters/
+    * **example_text.tex**
+    * **example_math.tex**
+    * **example_code.tex**
+    * **example_citation.tex**
+    * **[another chapter].tex**
+* config/
+    * **globals.tex**
+    * **style.sty**
+* **main.tex**
+* **titlepage.tex**
+* **copyright.tex**
+* **abstract.tex**
+* **references.bib**
