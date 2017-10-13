@@ -3,7 +3,7 @@
 
 ## Preview
 
-Preview the compiled PDF.
+![https://github.com/tijme/latex-boilerplate/raw/master/.github/preview.pdf](https://github.com/tijme/latex-boilerplate/raw/master/.github/preview.png)
 
 ## Make Commands
 
