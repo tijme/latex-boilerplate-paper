@@ -5,8 +5,6 @@
 
 Preview the compiled PDF.
 
-[image here]
-
 ## Make Commands
 
 **Compile to PDF**
