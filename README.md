@@ -1,7 +1,7 @@
 <h1 align="center">LaTeX Boilerplate</h1>
-<p align="center">A simple LaTeX boilerplate for academic homework (<a href="https://github.com/tijme/latex-boilerplate/raw/master/.github/preview.pdf">PDF preview</a>)</p>
+<p align="center">A simple LaTeX boilerplate for academic homework (<a href="https://github.com/tijme/latex-boilerplate/blob/master/.github/preview.pdf">PDF preview</a>)</p>
 
-![https://github.com/tijme/latex-boilerplate/raw/master/.github/preview.pdf](https://github.com/tijme/latex-boilerplate/raw/master/.github/preview.png)
+![https://github.com/tijme/latex-boilerplate/blob/master/.github/preview.pdf](https://github.com/tijme/latex-boilerplate/raw/master/.github/preview.png)
 
 ## Make Commands
 
