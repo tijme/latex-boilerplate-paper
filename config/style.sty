@@ -24,10 +24,7 @@
 \graphicspath{{assets/}}
 
 % Enable syntax highlighting
-\definecolor{listinggray}{gray}{0.8}
-\definecolor{lbcolor}{rgb}{0.99,0.99,0.99}
 \lstset {
-	backgroundcolor=\color{lbcolor},
 	tabsize=4,
 	rulecolor=,
 	language=matlab,
@@ -37,9 +34,10 @@
         columns=fixed,
         showstringspaces=false,
         extendedchars=true,
+        numbers=left,
+    	stepnumber=1,
         breaklines=true,
         prebreak = \raisebox{0ex}[0ex][0ex]{\ensuremath{\hookleftarrow}},
-        frame=single,
         showtabs=false,
         showspaces=false,
         showstringspaces=false,
