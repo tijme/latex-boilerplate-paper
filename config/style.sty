@@ -8,11 +8,22 @@
 \usepackage{parskip}
 \usepackage{listings}
 \usepackage{color}
+\usepackage[hyphens]{url}
 \usepackage{xspace}
 \usepackage{textcomp}
+\usepackage{courier}
 \usepackage{titlesec}
-\usepackage[comma,authoryear]{natbib}
+\usepackage[english]{babel}
+\usepackage{csquotes}
+\usepackage{fancyvrb}
+\usepackage[backend=biber,style=apa]{biblatex}
 \usepackage[titletoc,toc,page]{appendix}
+\usepackage[super,negative]{nth}
+\usepackage{color}
+
+\definecolor{mygray}{rgb}{0.4,0.4,0.4}
+\definecolor{mygreen}{rgb}{0,0.8,0.6}
+\definecolor{myorange}{rgb}{1.0,0.4,0}
 
 % Set chapter title size
 \titleformat{\chapter}{\normalfont\huge\bfseries}{\thechapter.}{20pt}{\Huge}
@@ -26,15 +37,14 @@
 % Enable syntax highlighting
 \lstset {
     tabsize=4,
-    language=c++,
-    basicstyle=\scriptsize,
+    language=C++,
+    basicstyle=\footnotesize\ttfamily\color{black},
     upquote=true,
-    %aboveskip={1.5\baselineskip},
-    %belowskip={1.5\baselineskip},
+    frame=single,
     columns=fixed,
-    showstringspaces=false,
     extendedchars=true,
     numbers=left,
+    numbersep=8pt,
     stepnumber=1,
     breaklines=true,
     prebreak=\raisebox{0ex}[0ex][0ex]{\ensuremath{\hookleftarrow}},
@@ -42,10 +52,11 @@
     showspaces=false,
     showstringspaces=false,
     identifierstyle=\ttfamily,
-    keywordstyle=\color[rgb]{0,0,1},
-    commentstyle=\color[rgb]{0.133,0.545,0.133},
-    stringstyle=\color[rgb]{0.627,0.126,0.941},
+    keywordstyle=\color{mygreen},
+    commentstyle=\color{mygray},
+    stringstyle=\color{myorange},
+    numberstyle=\tiny\color{mygray},
 }
 
-% Bibliography
-\bibliographystyle{apalike}
+% Bibliography%
+\DeclareLanguageMapping{english}{english-apa}

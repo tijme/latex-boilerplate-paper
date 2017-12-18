@@ -2,13 +2,14 @@
 
 \include{config/globals}
 \usepackage{config/style}
+\addbibresource{references.bib}
 
 \begin{document}
 
 	\include{titlepage}
-	
+
 	\clearpage
-	
+
 	\thispagestyle{empty}
 	\pagenumbering{gobble}
 
@@ -21,18 +22,22 @@
 
 	\pagenumbering{arabic}
 
+	\part{Analysis}
 	\include{chapters/example_text}
+
+	\part{Examples}
 	\include{chapters/example_math}
 	\include{chapters/example_code}
 	\include{chapters/example_citation}
-        
+
 	\pagestyle{empty}
 	\pagenumbering{roman}
 	\setcounter{page}{1}
-	
-	\phantomsection 
-	\addcontentsline{toc}{chapter}{Bibliography} 
-	\bibliography{references}
+
+	\part{Extra}
+	\phantomsection
+	\addcontentsline{toc}{chapter}{Bibliography}
+	\printbibliography
 
 	\include{appendices}
 
