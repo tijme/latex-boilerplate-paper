@@ -19,16 +19,11 @@
 \usepackage[backend=biber,style=apa]{biblatex}
 \usepackage[titletoc,toc,page]{appendix}
 \usepackage[super,negative]{nth}
-\usepackage{color}
 \usepackage{hyperref}
 \usepackage{tabularx}
 \usepackage{ltablex}
 \usepackage{longtable}
 \usepackage{makecell}
-
-\definecolor{mygray}{rgb}{0.4,0.4,0.4}
-\definecolor{mygreen}{rgb}{0,0.8,0.6}
-\definecolor{myorange}{rgb}{1.0,0.4,0}
 
 % Set chapter title size
 \titleformat{\chapter}{\normalfont\huge\bfseries}{\thechapter.}{20pt}{\Huge}
@@ -41,30 +36,6 @@
 
 % Set assets folder
 \graphicspath{{assets/}}
-
-% Enable syntax highlighting
-\lstset {
-    tabsize=4,
-    language=C++,
-    basicstyle=\footnotesize\ttfamily\color{black},
-    upquote=true,
-    frame=single,
-    columns=fixed,
-    extendedchars=true,
-    numbers=left,
-    numbersep=8pt,
-    stepnumber=1,
-    breaklines=true,
-    prebreak=\raisebox{0ex}[0ex][0ex]{\ensuremath{\hookleftarrow}},
-    showtabs=false,
-    showspaces=false,
-    showstringspaces=false,
-    identifierstyle=\ttfamily,
-    keywordstyle=\color{mygreen},
-    commentstyle=\color{mygray},
-    stringstyle=\color{myorange},
-    numberstyle=\tiny\color{mygray},
-}
 
 % Bibliography%
 \DeclareLanguageMapping{english}{english-apa}

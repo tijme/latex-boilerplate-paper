@@ -1,0 +1,30 @@
+\definecolor{lsBasicStyle}{rgb}{0,0,0}
+\definecolor{lsCommentStyle}{rgb}{0.40,0.40,0.40}
+\definecolor{lsKeywordStyle}{rgb}{0,0,1}
+\definecolor{lsStringStyle}{rgb}{1,0.47,0.0}
+\definecolor{lsNumberStyle}{rgb}{0,0,0}
+\definecolor{lsIdentifierStyle}{rgb}{0.1,0.1,0.1}
+\definecolor{lsRuleColor}{rgb}{0,0,0}
+\definecolor{lsArrowColor}{rgb}{0,0,0}
+
+% Enable syntax highlighting for Python.
+\lstset{
+    language=Python,											% Language
+    basicstyle=\small\ttfamily\color{lsBasicStyle},				% Default font
+    tabsize=4,													% Indenting
+    upquote=true,												% Use '' instead of ``
+    frame=single,												% Border
+    extendedchars=true,											% Allow UTF-8
+    numbers=left,												% Line numbers
+    breaklines=true,											% Break lines (if going out of frame)
+    prebreak=\raisebox{0ex}[0ex][0ex]{							% Show an arrow when breaking a line
+    	\color{lsArrowColor}\ensuremath{\hookleftarrow}
+	},
+	otherkeywords={self,abstractmethod,classmethod,__call__,__import__,__init__, __nonzero__,None},
+    commentstyle=\small\ttfamily\color{lsCommentStyle},			% Code comments style
+    keywordstyle=\small\ttfamily\color{lsKeywordStyle},			% Code keyword style
+    stringstyle=\small\ttfamily\color{lsStringStyle},			% Code string style
+    numberstyle=\small\ttfamily\color{lsNumberStyle},			% Line number style
+    identifierstyle=\small\ttfamily\color{lsIdentifierStyle},	% Identifier style
+    rulecolor=\small\ttfamily\color{lsRuleColor}				% Border color
+}
