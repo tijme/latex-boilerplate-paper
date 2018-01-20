@@ -1,13 +1,15 @@
 <h1 align="center">LaTeX Boilerplate</h1>
-<p align="center">A simple yet comprehensive LaTeX boilerplate for academic homework (<a href="https://github.com/tijme/latex-boilerplate/blob/master/.github/preview.pdf">PDF preview</a>)</p>
+<p align="center">A simple yet comprehensive LaTeX boilerplate (example) for academic homework (<a href="https://github.com/tijme/latex-boilerplate/blob/master/.github/preview.pdf">PDF preview</a>)</p>
 
 ![https://github.com/tijme/latex-boilerplate/blob/master/.github/preview.pdf](https://github.com/tijme/latex-boilerplate/raw/master/.github/preview.png)
 
-## Make Commands
+## Building The Document
 
 **Compile to PDF**
 
 `$ make pdf`
+
+This runs [*pdflatex*, *biber*, *pdflatex*, *pdflatex*], a command that is available by default in most graphical LaTex editors.
 
 **Clean temporary files**
 
@@ -22,12 +24,14 @@
 * assets/ *(add all your assets here)*
     * **image1.jpg**
     * **image2.jpg**
+    * **frontpage.png**
     * ***[another asset]*.png**
 * chapters/ *(add all your chapters here)*
     * **example_text.tex**
     * **example_math.tex**
     * **example_code.tex**
     * **example_citation.tex**
+    * **example_table.tex**
     * ***[another chapter]*.tex**
 * config/
     * **globals.tex** *(variables/settings)*
