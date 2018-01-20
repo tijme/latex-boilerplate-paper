@@ -41,3 +41,11 @@ This runs [*pdflatex*, *biber*, *pdflatex*, *pdflatex*], a command that is avail
 * **copyright.tex** *(the copyright page)*
 * **abstract.tex** *(the abstract page)*
 * **references.bib** *(the references library)*
+
+## Issues
+
+Issues or new features can be reported via the GitHub issue tracker. Please make sure your issue or feature has not yet been reported by anyone else before submitting a new one.
+
+## License
+
+LaTex Boilerplate is open-sourced software licensed under the [MIT license](https://github.com/tijme/latex-boilerplate/blob/master/LICENSE.md).
