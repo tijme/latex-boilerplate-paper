@@ -8,15 +8,19 @@ import requests
 class Scanner:
     """The Scanner scans items on sandbox escaping."""
 
-    scanned_hashes = []
-
-    def __init__(self, queue_item):
+    def __init__(self, item):
         """Initialize class for the given item."""
 
-        self.__queue_item = queue_item
+        self.__queue_item = item
 
-        queue_item.mount("http://", requests.adapters.HTTPAdapter)
-        queue_item.mount("https://", requests.adapters.HTTPAdapter)
+        item.mount("http://", requests.HTTPAdapter)
+        item.mount("https://", requests.HTTPAdapter)
+
+    @staticmethod
+    def hello():
+    	"""Print an example message."""
+
+    	print("Hello World!")
 \end{lstlisting}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit (see \ref{lst:sampleCode}).
