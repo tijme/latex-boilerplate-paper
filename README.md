@@ -1,5 +1,5 @@
 <h1 align="center">LaTeX Boilerplate</h1>
-<p align="center">A simple yet comprehensive LaTeX boilerplate (example) for academic homework (<a href="https://github.com/tijme/latex-boilerplate/blob/master/.github/preview.pdf">PDF preview</a>)</p>
+<p align="center">A simple yet comprehensive LaTeX paper boilerplate (example) for academic homework (<a href="https://github.com/tijme/latex-boilerplate/blob/master/.github/preview.pdf">PDF preview</a>)</p>
 
 ![https://github.com/tijme/latex-boilerplate/blob/master/.github/preview.pdf](https://github.com/tijme/latex-boilerplate/raw/master/.github/preview.png)
 
@@ -36,10 +36,10 @@ This runs [*pdflatex*, *biber*, *pdflatex*, *pdflatex*], a command that is avail
 * config/
     * **globals.tex** *(variables/settings)*
     * **style.sty** *(the document style/design)*
-* **main.tex** *(the root .tex file)*
-* **titlepage.tex** *(the cover page)*
+* **main.tex** *(defines the document structure)*
+* **titlepage.tex** *(the title page)*
 * **copyright.tex** *(the copyright page)*
-* **abstract.tex** *(the abstract page)*
+* **abstract.tex** *(the abstract/summary)*
 * **references.bib** *(the references library)*
 
 ## Issues
