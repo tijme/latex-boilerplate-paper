@@ -1,5 +1,5 @@
 <h1 align="center">LaTeX Boilerplate</h1>
-<p align="center">A simple yet comprehensive LaTeX paper boilerplate (example) for academic homework (<a href="https://github.com/tijme/latex-boilerplate/blob/master/.github/preview.pdf">PDF preview</a>)</p>
+<p align="center">A simple yet comprehensive LaTeX paper boilerplate (example) for academic homework (<a href="https://github.com/tijme/latex-boilerplate/blob/master/.github/preview.pdf">PDF preview</a>).<br><i>Do you want to make killer presentations? Take a look at <a href="https://github.com/tijme/latex-boilerplate-paper">this</a> LaTex boilerplate.</i></p>
 
 ![https://github.com/tijme/latex-boilerplate/blob/master/.github/preview.pdf](https://github.com/tijme/latex-boilerplate/raw/master/.github/preview.png)
 
