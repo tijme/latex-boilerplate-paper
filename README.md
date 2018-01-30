@@ -1,7 +1,7 @@
 <h1 align="center">LaTeX Boilerplate</h1>
-<p align="center">A simple yet comprehensive LaTeX paper boilerplate (example) for academic homework (<a href="https://github.com/tijme/latex-boilerplate/blob/master/.github/preview.pdf">PDF preview</a>).<br><i>Do you want to make killer presentations? Take a look at <a href="https://github.com/tijme/latex-boilerplate-presentation">this</a> LaTex boilerplate.</i></p>
+<p align="center">A simple yet comprehensive LaTeX paper boilerplate (example) for academic homework (<a href="https://github.com/tijme/latex-boilerplate-paper/blob/master/.github/preview.pdf">PDF preview</a>).<br><i>Do you want to make killer presentations? Take a look at <a href="https://github.com/tijme/latex-boilerplate-presentation">this</a> LaTex boilerplate.</i></p>
 
-![https://github.com/tijme/latex-boilerplate/blob/master/.github/preview.pdf](https://github.com/tijme/latex-boilerplate/raw/master/.github/preview.png)
+![https://github.com/tijme/latex-boilerplate-paper/blob/master/.github/preview.pdf](https://github.com/tijme/latex-boilerplate-paper/raw/master/.github/preview.png)
 
 ## Building The Document
 
@@ -48,4 +48,4 @@ Issues or new features can be reported via the GitHub issue tracker. Please make
 
 ## License
 
-LaTex Boilerplate is open-sourced software licensed under the [MIT license](https://github.com/tijme/latex-boilerplate/blob/master/LICENSE.md).
+LaTex Boilerplate is open-sourced software licensed under the [MIT license](https://github.com/tijme/latex-boilerplate-paper/blob/master/LICENSE.md).
